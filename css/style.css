@@ -1,0 +1,157 @@
+/* the project in general*/
+*     
+{
+   margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.clear
+{
+    clear: both;
+}
+.pd-y
+{
+    padding: 100px 0px;
+}
+/* body of the project*/
+body
+{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.header
+{
+    
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+/* container smaller than body */
+.container
+{
+    margin: auto;
+    width: 80%;
+}
+.header .logo
+{
+    width: 40%;
+    
+    float: left;
+}
+.header .nav
+{   text-align: right;
+    width: 60%;
+    float: left;
+}
+.header .logo img
+{
+    width: 30%;
+}
+
+.header .nav li
+{
+    list-style: none;
+    display: inline-block;
+}
+.header .nav  a
+{   
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+   
+}
+/***************************Home **********************************/
+.title
+{
+    color: teal;
+    font-size: 50px;
+}
+.home
+{   height:100vh ;
+    background-image: url(/Images/logo.jpg);
+    background-size: cover;
+    position: relative;
+}
+.overlay
+{   
+    width: 100%;
+    height: 100%;
+    position: absolute;
+     background-color: rgba(0,0,0, 0.3);
+     left: 0px;
+     top: 0px;
+}
+.Home-content
+{
+   
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+/*8888888888888888 Section Header 888888888888888*/
+.section-header
+{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.section-header .section-title
+{
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.section-line
+{   
+    display: block;
+    height: 5px;
+    width: 60px;
+    background-color: aqua;
+    margin: 0px auto 70px auto;
+   
+}
+/*******About*********/
+ .ltr-effect
+ {
+     position: relative;
+ }
+ .ltr-effect:after
+{
+position: absolute;    
+content: "";
+background-color: crimson;
+width: 0%;
+left: 0px;
+top: 0px;
+right: 0px;
+bottom: 0px;
+z-index: -1;
+transition: width 0.7s;
+}
+.about-item:hover:after
+{
+width: 100%;
+}
+.about-item
+{   padding: 50px 5px 50px 5px;
+    float: left;
+    width: 30%;
+    border: 1px solid #888;
+    text-align: center;
+}
+.about-item-mg
+   
+{    text-align: center;
+      padding: 50px 5px 50px 5px; 
+    border: 1px solid #888;
+    float: left;
+    width: 30%;
+    margin: 0px 5% 0px 5%;
+}
+
+
